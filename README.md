@@ -1,20 +1,31 @@
-# mern_shopping_list
+# MERN Shopping List
 
 Lista de compras creada con MERN Stack y Redux con Autenticación
 
 ## Install
 
-Instala las dependencias del servidor y el cliente. ````npm run setup````
+Instala las dependencias del servidor y el cliente.
+
+````npm run setup````
 
 ## Dev server
 
-Ejecuta el cliente y el servidor  en modo desarrollo de forma concurrente. ````npm run dev````
+````
+# Run the client & server with concurrently
+npm run dev
 
-Entra a http://localhost:3000 para verlo en el navegador.
+# Run the Express server only
+npm run server
+
+# Run the React client only
+npm run client
+
+# Server runs on http://localhost:5000 and client on http://localhost:3000
+````
 
 ## Database config
 
-Edita la sentencia mongoURI en config/default.json con tus credenciales.
+Edita la sentencia mongoURI en config/default.json con tus credenciales, procura configurar el ambiente.
 
 ## Referencias
 
